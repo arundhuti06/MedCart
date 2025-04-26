@@ -26,7 +26,6 @@ const AddAddress = ({close}) => {
                     mobile : data.mobile
                 }
             })
-
             const { data : responseData } = response
             
             if(responseData.success){

@@ -83,11 +83,11 @@ const CategoryPage = () => {
             )
         }
 
-        <div className='p-4 grid  grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-2'>
+        <div className='p-4 grid  grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-2'>
             {
                 categoryData.map((category,index)=>{
                     return(
-                        <div className='w-32 h-56 rounded shadow-md' key={category._id}>
+                        <div className='w-32 h-42 rounded shadow-md' key={category._id}>
                             <img 
                                 alt={category.name}
                                 src={category.image}

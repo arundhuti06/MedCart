@@ -6,8 +6,7 @@ const SummaryApi = {
         method : 'post'
     },
     login : {
-        // url : '/api/user/login',
-        url : 'http://localhost:8080/api/user/login',
+        url : '/api/user/login',
         method : 'post'
     },
     forgot_password : {
